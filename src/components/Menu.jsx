@@ -23,11 +23,11 @@ background-color: ${({theme})=> theme.bgLighter};
 height: 100vh;
 color: ${({theme})=>theme.text}; 
 position: sticky; 
+font-size: 14px;
 top: 0;
 `
 const Wrapper = styled.div`
-padding: 18px 26px;
- 
+padding: 18px 26px; 
 `
 
 const Logo = styled.div`
